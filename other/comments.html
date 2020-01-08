@@ -1,0 +1,99 @@
+<section>
+    <h2 class="text-primary mb-5">Comments</h2>
+    <div class="row mb-3">
+        <div class="col-sm-2 d-none d-sm-block">
+            <img alt="" src="{IMAGE_SRC}" class="rounded-circle mr-2 mt-2" style="height: 60px; width: 60px;"/>
+        </div>
+        <div class="col-sm-10 col-12">
+            <div class="card arrow">
+                <div class="card-body">
+                    <div class="btn-toolbar float-right" role="toolbar">
+                        <div class="btn-group mr-2">
+                            <a href="#" class="btn btn-primary btn-sm small">Reply</a>
+                        </div>
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-primary btn-sm small"><i class="far fa-heart"></i>&nbsp;</a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-user d-none d-sm-inline"></i>
+                        <img alt="" src="{IMAGE_SRC}" class="img-fluid d-inline d-sm-none rounded-circle" style="height: 20px; width: 20px;"/>
+                        <a class="text-body" href="#">{NAME}</a>
+                        <p class="text-muted small"><i class="fa fa-clock-o"></i> 5 days ago</p>
+                        {TEXT}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offset-sm-1">
+        <div class="row mb-3">
+            <div class="col-sm-2 d-none d-sm-block">
+                <img alt="" src="{IMAGE_SRC}" class="rounded-circle mr-2 mt-2" style="height: 40px; width: 40px;"/>
+            </div>
+            <div class="col-sm-10 col-12">
+                <div class="card arrow">
+                    <div class="card-body">
+                        <div class="btn-toolbar float-right" role="toolbar">
+                            <div class="btn-group mr-2">
+                                <a href="#" class="btn btn-primary btn-sm small">Reply</a>
+                            </div>
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-primary btn-sm small"><i class="far fa-heart"></i>&nbsp;</a>
+                            </div>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-user d-none d-sm-inline"></i>
+                            <img alt="" src="{IMAGE_SRC}" class="img-fluid d-inline d-sm-none rounded-circle" style="height: 20px; width: 20px;"/>
+                            <a class="text-body" href="#">{NAME}</a>
+                            <p class="text-muted small"><i class="fa fa-clock-o"></i> 3 days ago</p>
+                            {TEXT}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offset-sm-1">
+        <div class="row mb-3">
+            <div class="col-sm-2 d-none d-sm-block">
+                <img alt="" src="{IMAGE_SRC}" class="rounded-circle mr-2 mt-2" style="height: 40px; width: 40px;"/>
+            </div>
+            <div class="col-sm-10 col-12">
+                <div class="card arrow">
+                    <div class="card-body">
+                        <div class="btn-toolbar float-right" role="toolbar">
+                            <div class="btn-group mr-2">
+                                <a href="#" class="btn btn-primary btn-sm small">Reply</a>
+                            </div>
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-primary btn-sm small"><i class="far fa-heart"></i>&nbsp;</a>
+                            </div>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-user d-none d-sm-inline"></i>
+                            <img alt="" src="{IMAGE_SRC}" class="img-fluid d-inline d-sm-none rounded-circle" style="height: 20px; width: 20px;"/>
+                            <a class="text-body" href="#">{NAME}</a>  <span class="badge small badge-secondary ml-1">admin</span>
+                            <p class="text-muted small"><i class="fa fa-clock-o"></i> 5 days ago</p>
+                            {TEXT}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="offset-sm-2 col-sm-10 mb-3">
+            <form>
+                <div class="input-group">
+                    <textarea name="comment" class="form-control" minlength="20" maxlength="6000" rows="2" placeholder="Write your reply..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-success mb-1 mt-2">Reply</button>
+            </form>
+        </div>
+    </div>
+</section>
